@@ -1,9 +1,9 @@
 // Mixins in here
 
-.navFlex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navFlex (@display, @justify, @align-items) {
+    display: @display;
+    justify-content: @justify;
+    align-items: @align-items;
 }
 
 .button (@font-size, @color, @padding, @bg-color, @width, @radius) {

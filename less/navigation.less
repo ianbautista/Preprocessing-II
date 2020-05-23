@@ -1,14 +1,27 @@
 // Navigation Styles here
 
 .nav-bar {
-    .navFlex;
+    .navFlex (flex, space-between, center);
     margin: 2em auto;
+    @media (@mobile) {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
     nav {
-      .navFlex;
+      .navFlex (flex, space-between, center);
+      @media (@mobile) {
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
       a {
         padding: 1em;
         font-size: 1.6rem;
         color: @shark;
+        font-weight: 900;
+        @media (@mobile) {
+          padding-bottom: .4em;
+        }
       }
     }
   }
