@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fun Bus Travel Agency - Solution</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet" />
+		<link href="css/index.css" rel="stylesheet" />
+
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<div class="header">
+				<div class="container nav-bar">
+					<h1>Fun Bus</h1>
+					<nav>
+						<a href="index.html">Home</a>
+						<a href="#">About Us</a>
+						<a href="#">Blog</a>
+						<a href="#">Contact</a>
+					</nav>
+				</div>
+			</div>
+			<div class="container img-content">
+				<img src="img/fun-bus.jpg" alt="Yellow Toy Bus on Sand" />
+			</div>
+			<div class="container header-text">
+				<h2>Your vacation awaits!</h2>
+				<p>
+					You're one step closer to your dream vacation. Please select your desired package below.
+				</p>
+			</div>
+		</header>
+		<section class="forms">
+			<form action="#">
+				<input type="text" id="fname" name="fname" placeholder="Firstname" value="" /><br />
+				<input type="text" id="lname" name="lname" placeholder="Lastname" value="" /><br />
+				<label for="package">Choose your adventure:</label><br />
+				<select id="package" name="package">
+					<option value="Fun">Fun in the Sun</option>
+					<option value="Mountain">Mountain Excursion</option>
+					<option value="Island">Island Getaway</option> </select
+				><br />
+				<input type="text" id="comments" name="comments" placeholder="Personalize your package here." value="" /><br />
+				<input class="btn" type="submit" value="Submit" />
+			</form>
+		</section>
+
+		<footer class="footer">
+			<p>Copyright Fun Bus 2018</p>
+		</footer>
+	</body>
+</html>

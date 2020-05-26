@@ -1,0 +1,15 @@
+.forms {
+    .navFlex (flex, center, center);
+    margin: 2% auto;
+    form {
+        .navFlex (flex, center, center);
+        flex-direction: column;
+        .btn {
+            .button (1.8rem, @white, .6em, @button-bg, 85%, 10px);
+            text-align: center;
+            @media (@mobile) {
+              .button (1.8rem, @white, .6em, @button-bg, 100%, 10px);
+            }
+          }
+    }
+}

@@ -357,3 +357,34 @@ header .header-text {
     border-radius: 10px;
   }
 }
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+}
+.forms form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.forms form .btn {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  padding: 0.6em;
+  background: #17A2B8;
+  width: 85%;
+  border-radius: 10px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .forms form .btn {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    padding: 0.6em;
+    background: #17A2B8;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
